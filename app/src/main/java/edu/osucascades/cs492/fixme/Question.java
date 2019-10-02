@@ -7,6 +7,7 @@ public class Question {
 
     public Question(int textResId, boolean answerTrue) {
          mAnswerTrue = answerTrue;
+         mTextResId = textResId;
     }
 
     public int getTextResId() {
