@@ -1,11 +1,11 @@
 package edu.osucascades.cs492.fixme;
 
-public class question {
+public class Question {
 
     private int mTextResId;
     private boolean mAnswerTrue;
 
-    public question(int textResId, boolean answerTrue) {
+    public Question(int textResId, boolean answerTrue) {
          mAnswerTrue = answerTrue;
     }
 
