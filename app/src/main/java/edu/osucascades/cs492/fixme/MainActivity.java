@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void updateQuestion() {
-        int question = mQuestionBank[mCurrentIndex].getTextResId();
+        int question = mQuestionBank[mCurrentIndex % mQuestionBank.length].getTextResId();
         mQuestionTextView.setText(question);
     }
 
